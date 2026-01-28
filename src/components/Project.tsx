@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { MdOutlineWorkOutline } from "react-icons/md";
 import ProjectCard from "./ui/ProjectCard";
 import SmartParkThumbnail from "@/assets/1.jpg";
 import EShopThumbnail from "@/assets/e-s-1.png";
