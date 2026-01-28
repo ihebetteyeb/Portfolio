@@ -23,6 +23,7 @@ import NR8 from "@/assets/nr_8.png";
 import NR9 from "@/assets/nr_9.png";
 import Flutter from "@/assets/pngwing.com.png";
 import type { ProjectDetails } from "@/types";
+import { AiOutlineCode } from "react-icons/ai";
 
 const Projects: ProjectDetails[] = [
   {
@@ -100,7 +101,7 @@ const Project = () => {
           }}
         >
           <div className="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl border border-blue-500/30">
-            <MdOutlineWorkOutline className="w-6 h-6 text-blue-400" />
+            <AiOutlineCode className="w-6 h-6 text-blue-400" />
           </div>
         </motion.div>
         <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white via-blue-100  to-cyan-300 bg-clip-text text-transparent">
