@@ -1,5 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import ReactIcon from "@/assets/react.svg";
 import Angular from "@/assets/Angular.svg";
 import Flutter from "@/assets/pngwing.com.png";
 import NestJS from "@/assets/NestJS.png";

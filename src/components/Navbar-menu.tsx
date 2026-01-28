@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import { Avatar, AvatarFallback } from "./ui/avatar";
 import {
   NavigationMenu,
   NavigationMenuItem,
