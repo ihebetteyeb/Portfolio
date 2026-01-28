@@ -48,8 +48,8 @@ const Contact = () => {
 
       <div className="flex flex-col items-center justify-center space-y-8 mt-16">
         <p className="max-w-2xl text-center text-gray-400 text-lg md:text-xl leading-relaxed">
-          Ready to bring your ideas to life? I'm always excited to collaborate on
-          innovative projects and help transform your vision into reality.
+          Ready to bring your ideas to life? I'm always excited to collaborate
+          on innovative projects and help transform your vision into reality.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-5 w-full">
@@ -60,19 +60,23 @@ const Contact = () => {
             className="flex items-center gap-3 px-8 py-4 rounded-2xl border border-blue-500/30 bg-blue-500/5 hover:bg-blue-500/10 transition-all duration-300 shadow-xl shadow-blue-500/5"
           >
             <FiMail className="w-5 h-5 text-blue-400" />
-            <span className="text-blue-100 font-semibold tracking-wide">ihebetteyeb13@gmail.com</span>
+            <span className="text-blue-100 font-semibold tracking-wide">
+              ihebetteyeb13@gmail.com
+            </span>
           </motion.a>
 
           <motion.a
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.98 }}
-            href="https://github.com/ihebetteyeb"
+            href="https://github.com/ihebetteyeb/Portfolio.git"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 px-8 py-4 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all duration-300 shadow-xl"
           >
             <FiArrowRight className="w-5 h-5 text-gray-400" />
-            <span className="text-gray-200 font-semibold tracking-wide">Source code on GitHub</span>
+            <span className="text-gray-200 font-semibold tracking-wide">
+              Source code on GitHub
+            </span>
           </motion.a>
         </div>
       </div>
